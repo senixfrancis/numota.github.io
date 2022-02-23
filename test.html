@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            overflow-x: hidden;
+
+        }
+        .wrapper{
+            display: flex;
+            flex-wrap: nowrap;
+
+        }
+        .section{
+            width: 100vw;
+            height: 100vh;
+            background-color: cadetblue ;
+            flex-shrink: 0;
+        }
+        .section:nth-child(2){
+            background-color: chartreuse;
+        }
+        .section:nth-child(4){
+            background-color: coral;
+        }
+        .extra{
+            width: 100%;
+            height: 400px;
+            background-color: royalblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <section class="section ">
+            <div class="container pt8">
+            <div class="row ">
+                <div class="img-left">
+                    <img src="./img/Website Designing img.svg" alt="website" width="20%">
+                </div>
+                <div class="content-right">
+                    <h2>Web Des<span>ign and Development</span></h2>
+                    <p class="pt">As a website is your business identity and the face in digital world, we put much efforts to design and develop the webite to attract the viewers and bring more leads. We provide static as well as dynamic websites based on customer business nature and or requirements.</p>
+                    <p class="pt">Do you need to modify your existing website? no worries, we can do it for you. We design, develop responsive and customised websites for your business.</p>
+                </div>
+            </div>
+            </div>
+            <div class="img-bot ">
+                <img src="./img/wirfraime bottom right.svg" alt="bottom" width="60%" style="float: right;">
+            </div>
+        </section>
+        <section class="section">
+            <div class="pt8"></div>
+                <div class="container">
+                    <div class="row">
+                    <div class="content-left">
+                        <h2>Digital Marketing and Social <span>Media Presence</span></h2>
+                        <p class="pt">We take care of your digital marketing part which gives more time to develop your business. In numota, we prepare ads for digital marketing and represent your business page in social media, this creates more leads to your business. Every business at present is aware of the importance of digital marketing and social media presence which is a boost to their business.</p>
+                        <div class="arrow-left  ">
+                            <img src="./img/rocket.svg" class="paper-plane" alt="Blue paper plane" />
+                        </div>
+                    </div>
+                    <div class="img-right ">
+                        <img src="./img/digitel and Social Media Marketing-01.svg" alt="social" width="20%">
+                    </div>
+                    </div>
+                </div>
+                <!-- <div class="arrow-right">
+                    <img src="./img/paper plain bottom right.svg" alt="arrow" width="100%" style="float: right;">
+                </div> -->
+
+        </section>
+        <section class="section">
+            <div class="ser-waveone">
+                <div class="container">
+                <div class="row pt8">
+                    <div class="img-left">
+                        <img src="./img/training-02.svg" alt="training" width="20%">
+                    </div>
+                    <div class="content-right">
+                        <h2>Tra<span>ining</span></h2>
+                        <p class="pt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, voluptate hic? Temporibus dolorem aliquam soluta, sit excepturi eius eum aperiam doloremque praesentium deserunt quod laboriosam adipisci recusandae repellat alias quos.</p>
+                        <p class="pt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa facilis vero a vitae et sapiente iste minus voluptate similique, repudiandae inventore, maiores amet nisi eum ea est magni temporibus fuga.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="wave">
+                <div class="container">
+                    <div class="row pt8">
+                        <div class="content-left">
+                            <h2>Ecommerce <span>Solutions</span></h2>
+                            <p class="pt">Do you want to launch an ecommerce business? No worries, we can help to start your business in digital world. We can create good website with ecommerce facilities and integrate leading payment gateways for easy payment transactions. We can also take care of the hard part by day to day maintenance and managing your ecommerce website.</p>
+                            <p class="pt">So, get ready to fulfill your dream of starting your own online store. Whether its a product based or service based business, we cover your online business requirement.</p>
+                        </div>
+                        <div class="img-right">
+                            <img src="./img/ecommerce solution-02.png" alt="ecommerce" width="50%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="ser-waveone">
+                <div class="container">
+                    <div class="row pt8">
+                        <div class="img-left">
+                            <img src="./img/ecommerce-img.png" alt="technology" width="20%">
+                        </div>
+                        <div class="content-right">
+                            <h2>Tech<span>nology</span></h2>
+                            <p class="pt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti repudiandae fugiat molestias magni unde asperiores natus cupiditate quidem ipsum voluptatum exercitationem quasi, fugit eius expedita at voluptates. Obcaecati, alias adipisci.</p>
+                            <p class="pt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic nulla nesciunt facilis quo! Sed, natus doloremque recusandae deleniti minus ducimus iusto perferendis modi? Officia, soluta numquam labore voluptas sapiente cupiditate.</p>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </section>
+    </div>
+    <section class="extra"></section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+        const tl = gsap.timeline();
+        tl.to(".wrapper",10,{x:-window.innerWidth*4})
+
+        ScrollTrigger.create({
+        animation:tl,
+        trigger:".wrapper",
+        end:"+=4000",
+        scrub:true,
+        pin:true,
+        onToggle: self => self.isActive && !scrollTween 
+        })
+
+        scrollTween = gsap.to(window, {
+        scrollTo: {x: i * innerWidth},
+        duration: 1,
+        overwrite: true
+      });
+
+
+
+// panels.forEach((panel, i) => {
+//   ScrollTrigger.create({
+//     trigger: panel,
+//     start: "top bottom",
+//     end: "+=200%",
+//     onToggle: self => self.isActive && !scrollTween && goToSection(i)
+//   });
+// });
+
+// just in case the user forces the scroll to an inbetween spot (like a momentum scroll on a Mac that ends AFTER the scrollTo tween finishes):
+ScrollTrigger.create({
+  start: 0, 
+  end: "max",
+  snap: 1 / (panels.length - 1)
+})
+    </script>
+</body>
+</html>

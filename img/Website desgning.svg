@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="141" height="141" viewBox="0 0 141 141">
+  <defs>
+    <filter id="Ellipse_8" x="0" y="0" width="141" height="141" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="website" transform="translate(28.5 32.5)">
+    <g transform="matrix(1, 0, 0, 1, -28.5, -32.5)" filter="url(#Ellipse_8)">
+      <circle id="Ellipse_8-2" data-name="Ellipse 8" cx="61.5" cy="61.5" r="61.5" transform="translate(9 8)" fill="#fff"/>
+    </g>
+    <path id="Path_5" data-name="Path 5" d="M23.179,10.5A3.679,3.679,0,0,0,19.5,14.179V43.612a3.679,3.679,0,0,0,3.679,3.679H37.9a3.679,3.679,0,0,0,3.679-3.679V14.179A3.679,3.679,0,0,0,37.9,10.5Zm11.037,7.358H26.858V39.933h7.358Z" transform="translate(26.149 8.716)" fill="#00b1e8" fill-rule="evenodd"/>
+    <path id="Path_6" data-name="Path 6" d="M11.179,10.5a3.679,3.679,0,0,0,0,7.358H25.9a3.679,3.679,0,0,0,0-7.358Z" transform="translate(8.716 8.716)" fill="#00b1e8"/>
+    <path id="Path_7" data-name="Path 7" d="M11.179,16.5a3.679,3.679,0,0,0,0,7.358H25.9a3.679,3.679,0,0,0,0-7.358Z" transform="translate(8.716 17.433)" fill="#00b1e8"/>
+    <path id="Path_8" data-name="Path 8" d="M7.5,26.179A3.679,3.679,0,0,1,11.179,22.5H25.9a3.679,3.679,0,0,1,0,7.358H11.179A3.679,3.679,0,0,1,7.5,26.179Z" transform="translate(8.716 26.149)" fill="#00b1e8"/>
+    <path id="Path_9" data-name="Path 9" d="M12.537,4.5A11.037,11.037,0,0,0,1.5,15.537V59.687A11.037,11.037,0,0,0,12.537,70.724H71.4A11.037,11.037,0,0,0,82.441,59.687V15.537A11.037,11.037,0,0,0,71.4,4.5ZM71.4,11.858H12.537a3.679,3.679,0,0,0-3.679,3.679V59.687a3.679,3.679,0,0,0,3.679,3.679H71.4a3.679,3.679,0,0,0,3.679-3.679V15.537A3.679,3.679,0,0,0,71.4,11.858Z" transform="translate(0 0)" fill="#00b1e8" fill-rule="evenodd"/>
+  </g>
+</svg>

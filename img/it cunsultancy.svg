@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="141" height="141" viewBox="0 0 141 141">
+  <defs>
+    <filter id="Ellipse_12" x="0" y="0" width="141" height="141" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 50 50">
+      <image width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAA7JJREFUaEPtmlmoTVEYx+81lXnIkDkPhgcpKQoRUTxQSinCfTDFk8gYMmSMV+SJCHlxvUgZbpkjhRTycMsQpcxDMv3+2Sfbvmefvde39r3tc/LVv3vOPt/032ut/X1r7VtdVfuyqhKkupGJtOImbQVzQc8MbtgLfBwBm8C3sL/GJrKTYKszIBB1sYML65qSyHOC9QKjwfUMCMnPVaCR6d2URH4FwaozIFFwUdRnFlOrLxFqwCQwBDwC44EClgWR5iS6GawCLSN3vDACcUQK14sNVNRWOuERzXREROIUmBEzZcqGyFoIbC8x75OI+CyZzEakE1k8A23LnYiKm4pSKSmLEdkPgyWeRMKLvdjijrpvlMV+mShjK4HIHUgM9ySSi8V+nyyGVgKROkiocqdZ7IVeawzK13yGIbCVnytAfvuE/VlalGM4mJ2QVBd+fwPUpa4ponuJaxOD6yquF8E4B6KqYet9iagt2ZgQdAO/bwPaj0h/HlAXHJYBfKkHc8DRlCQ0EocDn977kek4qk0I/JPfddf0qFbLHZYzfJkGZoJz4CFQS65RPp6SUAM1y9QaiJfHjgHVCSwCZ8HB4LNq0QQwC9wE2mvoBpjEQuQQkRYYoj3Fph8orLFXfO4BPoCRwcgY3P4xsRB5j117Y0RV6HrQP7D/yF9NVS1+L7EQ+UzE1saoIlIHBgfJ66HxxOjrHzMLkTQtSlxu2k1qvWQuFiJ6/l8wZqLFvhhovWQqFiJKYCrQou1szEZVXlU6M7ESUQI+U+w19t0yY4EjHyL7sF9uTOY0dnH7fZNLHyKFwzJL4MkYnbcYxtn4EJHPE0CV2UW0TZ7vYpBG15dIO4KoMruIatBXF4M0ur5EVOBc+6Nm2JQ6oEuTdwOd/0SCW6JN0XfHW9gC/R+ONonqviOidx96B+IiK1He62KQRtdKpAPO94CFwPLKQOfGalW0Hc5EXIl0J+pSsAx09czgHfbatu4G2sJ6SVoig4LkNQLWFj4uUe29TwYjrKMmkyQR0YubLUD7a8sUck1K1X4FuOdqGEdEJ+1aA9pn68nUlKIn2gGgF0jaxKWSYkR0bKPTjaTTxFQBPJQ0zaaA6ClMUZdRIh3RugE0pfIgOioaBXROUFKiRPQU0WFankQ51SQlFCaiqXQXqBfKk6iXGwYelEoqTGQXilpgeZQG/+kQTTJM5DY/jsgjC3K6BXSIFythIm/R0mLPo6gL0EvYRCJt0PiURwahnJTjl7gckyp7zrn9Ta9iiPwGBRnyFVNEVJIAAAAASUVORK5CYII="/>
+    </pattern>
+  </defs>
+  <g id="it_cunsultancy" data-name="it cunsultancy" transform="translate(-890 -3060)">
+    <g transform="matrix(1, 0, 0, 1, 890, 3060)" filter="url(#Ellipse_12)">
+      <circle id="Ellipse_12-2" data-name="Ellipse 12" cx="61.5" cy="61.5" r="61.5" transform="translate(9 8)" fill="#fff"/>
+    </g>
+    <rect id="icons8-consultation-50" width="75" height="74" transform="translate(924 3088)" fill="url(#pattern)"/>
+  </g>
+</svg>
